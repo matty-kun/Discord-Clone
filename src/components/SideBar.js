@@ -14,7 +14,7 @@ const Sidebar = () => {
 
 const SideBarIcon = ({ icon, text = 'tooltip 💡' }) => {
     return (
-        <div className="sidebar-icon group">
+        <div className="sidebar-icon group bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-white">
             {icon}
             <span class="sidebar-tooltip group-hover:scale-100">
                 {text}
